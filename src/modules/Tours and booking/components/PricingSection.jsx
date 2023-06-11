@@ -7,17 +7,16 @@ const PricingSection = () => {
         <div class="space-y-12 overflow-hidden bg-cardBackground lg:border border-gray-700 lg:rounded lg:p-20 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-x-6">
           <div class="relative flex flex-col lg:p-4">
             <div class="flex-1 border border-gray-700 lg:border-transparent p-4">
-              <p class="flex items-baseline mt-4 text-black">
+              <p class="flex items-baseline mt-4 text-goldenBrown">
                 <span class="text-5xl font-light tracking-tight text-goldenBrown">
-                  $249
+                  $60
                 </span>
+                /person
               </p>
               <div class="px-4 py-5 border-b">
                 <div class="flex flex-wrap items-baseline -mt-2 -ml-2">
-                  <h3 class="mt-2 text-lg text-mustard">Great Team License</h3>
-                  <p class="mt-1 text-sm text-white">
-                    For SAAS, personal &amp; clients
-                  </p>
+                  <h3 class="mt-2 text-lg text-mustard">Mangrove Tour</h3>
+                  <p class="mt-1 text-sm text-white">2 Hours Duration</p>
                 </div>
               </div>
               <div class="flex">
@@ -26,7 +25,7 @@ const PricingSection = () => {
                   class="items-center justify-center w-full px-6 py-2.5 mt-8 text-center text-black duration-200 bg-gradient-to-b from-brightMustard to-mustard rounded inline-flex hover:bg-transparent hover:border-black hover:text-black/80 focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black"
                   aria-describedby="tier-hobby"
                 >
-                  Get started
+                  Place Booking
                 </a>
               </div>
               <ul class="flex flex-col order-last mt-10 text-sm text-white gap-y-3">
@@ -37,7 +36,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Connect 1 websites </span>
+                  <span class="ml-4"> Mangrove tunnel tour </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -46,7 +45,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Connect up to 2 bank accounts </span>
+                  <span class="ml-4"> Guided wildlife education </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -55,7 +54,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Track up to 15 credit cards </span>
+                  <span class="ml-4"> Open wildlife sight seeing </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -64,7 +63,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Analytics support </span>
+                  <span class="ml-4"> Life jacket for kids and adults </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -73,24 +72,34 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Export up to 3 months data </span>
+                  <span class="ml-4"> Ariel Photograph (optional) </span>
+                </li>
+                <li class="flex items-center">
+                  <ion-icon
+                    class="w-4 h-4 md hydrated"
+                    name="checkmark-outline"
+                    role="img"
+                    aria-label="checkmark outline"
+                  ></ion-icon>
+                  <span class="ml-4"> Snacks and drinks (optional) </span>
                 </li>
               </ul>
             </div>
           </div>
           <div class="relative flex flex-col lg:p-4">
             <div class="flex-1 border border-gray-700 lg:border-transparent p-4">
-              <p class="flex items-baseline mt-4 text-black">
+              <p class="flex items-baseline mt-4 text-goldenBrown">
                 <span class="text-5xl font-light tracking-tight text-goldenBrown">
-                  $59
+                  $80
                 </span>
+                /person
               </p>
               <div class="px-4 py-5 border-b">
                 <div class="flex flex-wrap items-baseline -mt-2 -ml-2">
-                  <h3 class="mt-2 text-lg text-mustard">Standard License</h3>
-                  <p class="mt-1 text-sm text-white">
-                    For personal and clients
-                  </p>
+                  <h3 class="mt-2 text-lg text-mustard">
+                    Mangrove and Iguana Beach Tour
+                  </h3>
+                  <p class="mt-1 text-sm text-white">3 Hours Duration</p>
                 </div>
               </div>
               <div class="flex">
@@ -99,7 +108,7 @@ const PricingSection = () => {
                   class="items-center justify-center w-full px-6 py-2.5 mt-8 text-center text-black duration-200 bg-gradient-to-b from-brightMustard to-mustard rounded inline-flex hover:bg-transparent hover:border-black hover:text-black/80 focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black"
                   aria-describedby="tier-company"
                 >
-                  Get started
+                  Place Booking
                 </a>
               </div>
               <ul class="flex flex-col order-last mt-10 text-sm text-white gap-y-3">
@@ -110,7 +119,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Connect 80 websites </span>
+                  <span class="ml-4"> Mangrove tunnel tour </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -119,7 +128,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Connect up to 5 bank accounts </span>
+                  <span class="ml-4"> Guided wildlife education </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -128,7 +137,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Track up to 50 credit cards </span>
+                  <span class="ml-4"> Access to Iguana beah </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -137,7 +146,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Analytics support </span>
+                  <span class="ml-4"> Beach relaxation </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -146,7 +155,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Export up to 12 months data </span>
+                  <span class="ml-4"> Open wildlife sight seeing </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -155,7 +164,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Cloud service 24/7 </span>
+                  <span class="ml-4"> Life jacket for kids and adults </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -164,24 +173,32 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Track in multiple users </span>
+                  <span class="ml-4"> Ariel Photograph (optional) </span>
+                </li>
+                <li class="flex items-center">
+                  <ion-icon
+                    class="w-4 h-4 md hydrated"
+                    name="checkmark-outline"
+                    role="img"
+                    aria-label="checkmark outline"
+                  ></ion-icon>
+                  <span class="ml-4"> Snacks and drinks (optional) </span>
                 </li>
               </ul>
             </div>
           </div>
           <div class="relative flex flex-col lg:p-4">
             <div class="flex-1 border border-gray-700 lg:border-transparent p-4">
-              <p class="flex items-baseline mt-4 text-black">
+              <p class="flex items-baseline mt-4 text-goldenBrown">
                 <span class="text-5xl font-light tracking-tight text-goldenBrown">
-                  $0
+                  $50
                 </span>
+                /person
               </p>
               <div class="px-4 py-5 border-b">
                 <div class="flex flex-wrap items-baseline -mt-2 -ml-2">
-                  <h3 class="mt-2 text-lg text-mustard">Test license</h3>
-                  <p class="mt-1 text-sm text-white">
-                    Great for testing &amp; understanding.
-                  </p>
+                  <h3 class="mt-2 text-lg text-mustard">Paddle Board Tours</h3>
+                  <p class="mt-1 text-sm text-white">2 Hours Duration</p>
                 </div>
               </div>
               <div class="flex">
@@ -190,7 +207,7 @@ const PricingSection = () => {
                   class="items-center justify-center w-full px-6 py-2.5 mt-8 text-center text-black duration-200 bg-gradient-to-b from-brightMustard to-mustard rounded inline-flex hover:bg-transparent hover:border-black hover:text-black/80 focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black"
                   aria-describedby="tier-hobby"
                 >
-                  Get started
+                  Place Booking
                 </a>
               </div>
               <ul class="flex flex-col order-last mt-10 text-sm text-white gap-y-3">
@@ -201,7 +218,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Connect unlimited websites </span>
+                  <span class="ml-4"> Mangrove tunnel tour </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -210,7 +227,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Connect up to 15 bank accounts </span>
+                  <span class="ml-4"> Guided wildlife education </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -219,7 +236,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Track up to 200 credit cards </span>
+                  <span class="ml-4"> Open wildlife sight seeing </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -228,7 +245,7 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Analytics support </span>
+                  <span class="ml-4"> Life jacket for kids and adults </span>
                 </li>
                 <li class="flex items-center">
                   <ion-icon
@@ -237,7 +254,16 @@ const PricingSection = () => {
                     role="img"
                     aria-label="checkmark outline"
                   ></ion-icon>
-                  <span class="ml-4"> Export up to 24 months data </span>
+                  <span class="ml-4"> Ariel Photograph (optional) </span>
+                </li>
+                <li class="flex items-center">
+                  <ion-icon
+                    class="w-4 h-4 md hydrated"
+                    name="checkmark-outline"
+                    role="img"
+                    aria-label="checkmark outline"
+                  ></ion-icon>
+                  <span class="ml-4"> Snacks and drinks (optional) </span>
                 </li>
               </ul>
             </div>

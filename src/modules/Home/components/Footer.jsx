@@ -2,8 +2,9 @@ import React from "react";
 import {
   TiSocialFacebook,
   TiSocialInstagram,
-  TiSocialLinkedin,
-  TiSocialTwitter,
+
+  // TiSocialTwitter,
+  TiSocialYoutube,
 } from "react-icons/ti";
 
 import { logo } from "../../../assets/images";
@@ -27,37 +28,59 @@ const Footer = () => {
             Clear Bottom kayak tours.
           </p>
           <div className="flex justify-items-start space-x-3">
-            <TiSocialFacebook className="bg-mustardColor" size={32} />
-            <TiSocialInstagram className="bg-mustardColor" size={32} />
-            <TiSocialLinkedin className="bg-mustardColor" size={32} />
-            <TiSocialTwitter className="bg-mustardColor" size={32} />
+            <a
+              href="https://www.facebook.com/clearbottomadventures/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <TiSocialFacebook className="bg-mustardColor" size={25} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.instagram.com/clearbottomadventures/"
+            >
+              <TiSocialInstagram className="bg-mustardColor" size={25} />
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.youtube.com/channel/UCTLjqiEXo2aZYbSSyMuo6Lw"
+            >
+              <TiSocialYoutube className="bg-mustardColor" size={25} />
+            </a>
+            {/* <TiSocialTwitter className="bg-mustardColor" size={25} /> */}
           </div>
         </div>
         <div className="space-y-3">
           <h5 className="mb-8 text-20px mt-8 md:mt-0 font-medium">Tours</h5>
-          <p className=" text-[17px] text-[#DFDFDF] font-light">
-            <Link to={"/privacy-policy"}>Mangrove Tour</Link>
+          <p className=" text-[16px] text-[#DFDFDF] font-light">
+            <Link to={"/tours"}>Mangrove Tour</Link>
           </p>
-          <p className="text-[17px] text-[#DFDFDF] font-light">
-            <Link to={"/terms-and-condition"}> Mangrove & Iguana Beach</Link>
+          <p className="text-[16px] text-[#DFDFDF] font-light">
+            <Link to={"/tours"}> Mangrove & Iguana Beach</Link>
           </p>
-          <p className="text-[17px] text-[#DFDFDF] font-light">
-            <Link to={"/terms-and-condition"}> Paddle Board</Link>
+          <p className="text-[16px] text-[#DFDFDF] font-light">
+            <Link to={"/tours"}> Paddle Board</Link>
           </p>
-          <p className="text-[17px] text-[#DFDFDF] font-light">
-            <Link to={"/terms-and-condition"}> Ariel Photography</Link>
+          <p className="text-[16px] text-[#DFDFDF] font-light">
+            <Link to={"/tours"}> Ariel Photography</Link>
           </p>
         </div>
         <div className="space-y-3">
           <h5 className="mb-8 text-20px mt-8 md:mt-0 font-medium">
             Useful Links
           </h5>
-          <p className=" text-[17px] text-[#DFDFDF] font-light">About us</p>
-          <p className="text-[17px] text-[#DFDFDF] font-light">Contact Us</p>
-          <p className="text-[17px] text-[#DFDFDF] font-light">
+          <p className=" text-[16px] text-[#DFDFDF] font-light">
+            <Link to={"/about"}>About us</Link>
+          </p>
+          <p className="text-[16px] text-[#DFDFDF] font-light">
+            <Link to={"/contact"}>Contact Us</Link>
+          </p>
+          <p className="text-[16px] text-[#DFDFDF] font-light">
             Privacy Policy
           </p>
-          <p className="text-[17px] text-[#DFDFDF] font-light">
+          <p className="text-[16px] text-[#DFDFDF] font-light">
             Terms and Condition
           </p>
         </div>

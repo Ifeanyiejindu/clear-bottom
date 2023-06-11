@@ -2,11 +2,21 @@ import React from "react";
 import { banner } from "../../../assets/images";
 
 const Hero = () => {
-  const bannerStyle = {
-    backgroundImage: `url(${banner})`,
-    backgroundRepeat: "no-repeat",
+  // const bannerStyle = {
+  //   backgroundImage: `url(${banner})`,
+  //   backgroundRepeat: "no-repeat",
+  //   backgroundSize: "cover",
+  //   backgroundPosition: "bottom",
+  // };
+  const bannerVideoStyle = {
+    position: "relative",
+    height: "75vh",
     backgroundSize: "cover",
-    backgroundPosition: "bottom",
+  };
+  const videoStyle = {
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
   };
   return (
     <div>
@@ -29,37 +39,37 @@ const Hero = () => {
                 href="./templates.html"
                 class="text-black text-sm px-4  border bg-gradient-to-b from-brightMustard to-mustard border-highlightGreen hover:text-gray-600 inline-flex items-center py-1 rounded-full"
               >
-                Articles{" "}
+                Kayak Rentals{" "}
               </a>
               <a
                 href="./blog-templates.html"
                 class="text-black text-sm px-4  border bg-gradient-to-b from-brightMustard to-mustard border-highlightGreen hover:text-gray-600 inline-flex items-center py-1 rounded-full"
               >
-                Tools{" "}
+                Turks{" "}
               </a>
               <a
                 href="/landing-pages.html"
                 class="text-black text-sm px-4  border bg-gradient-to-b from-brightMustard to-mustard border-highlightGreen hover:text-gray-600 inline-flex items-center py-1 rounded-full"
               >
-                Suppliers{" "}
+                Paddle Board Rental{" "}
               </a>
               <a
                 href="./ui-kits.html"
                 class="text-black text-sm px-4  border bg-gradient-to-b from-brightMustard to-mustard border-highlightGreen hover:text-gray-600 inline-flex items-center py-1 rounded-full"
               >
-                Products{" "}
+                Mangrove{" "}
               </a>
               <a
                 href="/personal-templates.html"
                 class="text-black text-sm px-4  border bg-gradient-to-b from-brightMustard to-mustard border-highlightGreen hover:text-gray-600 inline-flex items-center py-1 rounded-full"
               >
-                Trending{" "}
+                Iguana{" "}
               </a>
               <a
                 href="./dark-templates.html"
                 class="text-black text-sm px-4  border bg-gradient-to-b from-brightMustard to-mustard border-highlightGreen hover:text-gray-600 inline-flex items-center py-1 rounded-full"
               >
-                Community
+                Eco-Friendly
               </a>
             </div>
           </div>
@@ -67,16 +77,14 @@ const Hero = () => {
       </section>
       <section
         class="bg-cover bg-neutral-300 bg-top h-[75vh]"
-        style={
-          bannerStyle
-          //   {
-          //   backgroundSize: "cover",
-          //   background: `url(
-          //   "https://images.unsplash.com/photo-1458322493962-69c5a4ef7ddf?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2070&amp;q=80"
-          // )`,
-          // }
-        }
+        style={bannerVideoStyle}
       >
+        <video autoPlay loop muted poster={banner} style={videoStyle}>
+          <source
+            src="https://player.vimeo.com/progressive_redirect/playback/820590028/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=76dd6a170f764fb6cefa6016f10b06260eb321eb88ca33947f5450b280d89c31"
+            type="video/mp4"
+          />
+        </video>
         <div class="relative px-5 mx-auto overflow-hidden lg:px-32 bg-opacity-90">
           <div class="py-32">
             <div class="lg:gap-24 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:max-w-7xl lg:mx-auto">

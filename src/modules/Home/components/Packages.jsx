@@ -76,11 +76,13 @@ const Packages = () => {
                   marine life.
                 </p>
               </div>
-              <div class="mt-12">
+              <div class="relative mt-12">
                 <img
-                  src="https://d33wubrfki0l68.cloudfront.net/ded521c426f480d4e473a11836c6ab8e7e948c84/95877/images/placeholders/square3.svg"
+                  className="object-cover w-full aspect-square"
+                  src="https://images.pexels.com/photos/2666806/pexels-photo-2666806.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   alt="/"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-cardBackground to-transparent"></div>
               </div>
             </div>
           </a>
@@ -95,11 +97,13 @@ const Packages = () => {
                   beach with rock iguanas.
                 </p>
               </div>
-              <div class="mt-12">
+              <div class="relative mt-12">
                 <img
-                  src="https://d33wubrfki0l68.cloudfront.net/ded521c426f480d4e473a11836c6ab8e7e948c84/95877/images/placeholders/square3.svg"
+                  className="object-cover w-full aspect-square"
+                  src="https://images.pexels.com/photos/17079323/pexels-photo-17079323/free-photo-of-boat-on-beach-on-shore-with-forest.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   alt="/"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-cardBackground to-transparent"></div>
               </div>
             </div>
           </a>
@@ -114,11 +118,13 @@ const Packages = () => {
                   paddleboarding adventure.
                 </p>
               </div>
-              <div class="mt-12">
+              <div class="relative mt-12">
                 <img
-                  src="https://d33wubrfki0l68.cloudfront.net/ded521c426f480d4e473a11836c6ab8e7e948c84/95877/images/placeholders/square3.svg"
+                  className="object-cover w-full aspect-square"
+                  src="https://images.pexels.com/photos/7967504/pexels-photo-7967504.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   alt="/"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-cardBackground to-transparent"></div>
               </div>
             </div>
           </a>
@@ -133,11 +139,13 @@ const Packages = () => {
                   photography services.
                 </p>
               </div>
-              <div class="mt-12">
+              <div className="relative mt-12">
                 <img
-                  src="https://d33wubrfki0l68.cloudfront.net/ded521c426f480d4e473a11836c6ab8e7e948c84/95877/images/placeholders/square3.svg"
+                  className="object-cover w-full aspect-square"
+                  src="https://images.pexels.com/photos/4601354/pexels-photo-4601354.jpeg?auto=compress&cs=tinysrgb&w=1600"
                   alt="/"
                 />
+                <div className="absolute inset-0 bg-gradient-to-t from-cardBackground to-transparent"></div>
               </div>
             </div>
           </a>

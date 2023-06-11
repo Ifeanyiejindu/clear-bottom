@@ -41,9 +41,9 @@ const PhotoHeroSection = () => {
             </div>
             <div class="order-first block w-full mt-12 aspect-square lg:mt-0">
               <img
-                class="object-cover object-center w-full mx-auto bg-gray-300 border lg:ml-auto"
+                class="object-cover object-center w-full h-[530px] aspect-square mx-auto bg-gray-300 border lg:ml-auto"
                 alt="hero"
-                src="https://d33wubrfki0l68.cloudfront.net/7c2dda6eab52a4b95dc6c3503d5a09c4e314f756/4d7a5/images/placeholders/square1.svg"
+                src="https://images.pexels.com/photos/8908121/pexels-photo-8908121.jpeg?auto=compress&cs=tinysrgb&w=1600"
               />
             </div>
           </div>

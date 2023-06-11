@@ -8,7 +8,7 @@ const ContactHeader = () => {
           <p class="text-3xl md:text-5xl text-yellow-500 my-4 leading-relaxed md:leading-snug">
             Contact our team
           </p>
-          <p class="font-sans text-sm md:text-lg my-2 md:my-4">
+          <p class=" text-sm md:text-lg my-2 md:my-4">
             <svg
               class="inline-block fill-current mr-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -20,7 +20,7 @@ const ContactHeader = () => {
             </svg>
             Guru Nank Dev Engineering College, Ludhiana
           </p>
-          <p class="font-sans text-sm md:text-lg my-2 md:my-4">
+          <p class=" text-sm md:text-lg my-2 md:my-4">
             <svg
               class="inline-block fill-current mr-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const ContactHeader = () => {
             </svg>{" "}
             techfestgndec@gmail.com
           </p>
-          <p class="font-sans text-sm md:text-lg my-2 md:my-4">
+          <p class=" text-sm md:text-lg my-2 md:my-4">
             <svg
               class="inline-block fill-current mr-2"
               xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const ContactHeader = () => {
             +91745435433
           </p>
           <br /> <br />
-          <p class="font-sans text-sm md:text-lg my-2 md:my-4">
+          <p class="text-sm md:text-lg my-2 md:my-4">
             Press the chat icon at the right bottom corner to have a live chat
             with our team.
           </p>

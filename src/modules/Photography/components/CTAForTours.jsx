@@ -29,8 +29,8 @@ const CTAForTours = () => {
       </div>
 
       <img
-        alt="Student"
-        src="https://images.unsplash.com/photo-1464582883107-8adf2dca8a9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+        alt="tour"
+        src="https://lh3.googleusercontent.com/pw/AM-JKLXm5Xboer5Hl_G425tsBvSmooztKEypdStyeQTqCH_2aAlKti1LdjukScBRG5hFcrKfQ5R0m2RGV-l8zrXIvQGmOGQJW4OsB-8vfLG0OKIrdxBN2Z6m95rHHq68nlQtaA_vWZy1TaCBvHG-faGGFtoc=w1600-h906-no?authuser=0"
         class="h-56 w-full object-cover sm:h-full"
       />
     </section>

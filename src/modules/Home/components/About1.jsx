@@ -5,10 +5,10 @@ const About1 = () => {
     <section className="w-full sm:max-w-[1240px] mx-auto text-white ">
       <div className="flex flex-col sm:flex-row py-20 px-0 md:px-20 w-full relative justify-between items-center mx-auto">
         <div className="flex flex-col  items-start p-[20px] mb-20 sm:mb-0 space-y-6 w-full md:max-w-[50%]">
-          <h3 style={{ lineHeight: 1 }} className="font-semibold text-[40px]">
+          <h3 style={{ lineHeight: 1 }} className="font-semibold text-[40px] ">
             Our Commitment to Nature and Adventure
           </h3>
-          <p className="text-[18px] mb-[30px]">
+          <p className="text-[18px] mb-[30px] ">
             We offer eco-friendly tours that showcase the wonders of the Turks
             and Caicos Islands. Paddle through enchanting mangrove tunnels, spot
             diverse marine life, and immerse yourself its natural beauty.

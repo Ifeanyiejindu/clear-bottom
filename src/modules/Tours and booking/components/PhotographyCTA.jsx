@@ -33,13 +33,13 @@ const PhotographyCTA = () => {
           <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
             <img
               alt="Student"
-              src="https://images.unsplash.com/photo-1621274790572-7c32596bc67f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=654&q=80"
+              src="https://images.pexels.com/photos/1122408/pexels-photo-1122408.jpeg?auto=compress&cs=tinysrgb&w=1600"
               class="h-40 w-full object-cover sm:h-56 md:h-full"
             />
 
             <img
               alt="Student"
-              src="https://images.unsplash.com/photo-1567168544813-cc03465b4fa8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+              src="https://images.pexels.com/photos/10549599/pexels-photo-10549599.jpeg?auto=compress&cs=tinysrgb&w=1600"
               class="h-40 w-full object-cover sm:h-56 md:h-full"
             />
           </div>

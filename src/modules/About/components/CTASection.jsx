@@ -3,10 +3,6 @@ import React, { useState } from "react";
 const CTASection = () => {
   const [tourImage, setTourImage] = useState(true);
 
-  const handleImageChange = (option) => {
-    setTourImage(option);
-  };
-
   return (
     <section class="overflow-hidden gradientbackground">
       <div class="items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
@@ -53,7 +49,30 @@ const CTASection = () => {
             </ul>
           </div>
           <div class="h-full mt-12 lg:mt-0 border-mercury-400 lg:pl-24 md:border-l md:pl-12">
-            <img
+            <video
+              class=" w-[966px] h-[488px] aspect-square"
+              src={
+                tourImage
+                  ? `https://player.vimeo.com/external/533862130.sd.mp4?s=8d8ce3fc8894448744813c0e48cb5df6e0c03e92&profile_id=164&oauth2_token_id=57447761`
+                  : `https://player.vimeo.com/external/484389490.sd.mp4?s=9ce6b6cc60bcd96fc49c871503418003d60da4aa&profile_id=164&oauth2_token_id=57447761`
+              }
+              poster={
+                tourImage
+                  ? `https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg?auto=compress&cs=tinysrgb&w=1600`
+                  : `https://images.pexels.com/photos/2734521/pexels-photo-2734521.jpeg?auto=compress&cs=tinysrgb&w=1600`
+              }
+            >
+              {" "}
+              <source
+                src={
+                  tourImage
+                    ? `https://player.vimeo.com/external/533862130.sd.mp4?s=8d8ce3fc8894448744813c0e48cb5df6e0c03e92&profile_id=164&oauth2_token_id=57447761`
+                    : `https://player.vimeo.com/external/484389490.sd.mp4?s=9ce6b6cc60bcd96fc49c871503418003d60da4aa&profile_id=164&oauth2_token_id=57447761`
+                }
+                type="video/mp4"
+              />
+            </video>
+            {/* <img
               alt="Lexingtøn thumbnail"
               class="object-cover bg-gray-300 w-[966px] h-[488px]"
               src={
@@ -61,7 +80,7 @@ const CTASection = () => {
                   ? `https://d33wubrfki0l68.cloudfront.net/ded521c426f480d4e473a11836c6ab8e7e948c84/95877/images/placeholders/square3.svg`
                   : `https://images.unsplash.com/photo-1686139280426-483b26ab94b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1035&q=80`
               }
-            />
+            /> */}
           </div>
         </div>
       </div>

@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { logo } from "../../../assets/images";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
   const [mobile, setMobile] = useState(false);
+  const location = useLocation();
 
   const isMobile = () => {
     setMobile(!mobile);
@@ -16,22 +17,44 @@ const Header = () => {
         <img className="object-contain w-[5rem]" src={logo} alt="avowal logo" />
 
         <ul className=" hidden md:flex text-[14px] xl:text-[16px] ">
-          <li className="p-4 hover:text-mustard">
+          <li
+            className={`p-4 hover:text-mustard ${
+              location.pathname === "/" ? "text-mustard" : "text-white"
+            }`}
+          >
             <Link to="/">Home</Link>
           </li>
-          <li className="p-4 hover:text-mustard">
+          <li
+            className={`p-4 hover:text-mustard ${
+              location.pathname === "/about" ? "text-mustard" : "text-white"
+            }`}
+          >
             <Link to="/about">About Us</Link>
           </li>
-          <li className="p-4 hover:text-mustard">
+          <li
+            className={`p-4 hover:text-mustard ${
+              location.pathname === "/tours" ? "text-mustard" : "text-white"
+            }`}
+          >
             {" "}
             <Link to={"/tours"}>Book Tours</Link>
           </li>
-          <li className="p-4 hover:text-mustard">
+          <li
+            className={`p-4 hover:text-mustard ${
+              location.pathname === "/photography"
+                ? "text-mustard"
+                : "text-white"
+            }`}
+          >
             {" "}
             <Link to={"/photography"}>Book Ariel Photography</Link>
           </li>
 
-          <li className="p-4 hover:text-mustard">
+          <li
+            className={`p-4 hover:text-mustard ${
+              location.pathname === "/contact" ? "text-mustard" : "text-white"
+            }`}
+          >
             {" "}
             <Link to={"/contact"}>Contact Us</Link>
           </li>

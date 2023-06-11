@@ -32,10 +32,10 @@ export default function AboutHero() {
           <div class="relative z-10 flex w-64 mx-auto overflow-hidden md:w-80 lg:w-auto">
             <img
               alt=""
-              src="https://d33wubrfki0l68.cloudfront.net/64c901dbc4b16388ef27646a320ad9c1441594df/236fd/images/placeholders/rectangle2.svg"
+              src="https://ik.imagekit.io/gondolatravel/uploads/IMG_3507_1_scaled_e8972b7dcc.jpg?tr=w-766,h-600,c-maintain_ratio,f-auto"
               decoding="async"
               data-nimg="future"
-              class="object-cover w-full h-1/3"
+              class="object-cover w-full h-[430px] md:h-[600px] lg:h-[750px]"
             />
           </div>
         </div>
