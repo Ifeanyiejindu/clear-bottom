@@ -24,7 +24,7 @@ const Gallery = () => {
           </button> */}
         </div>
 
-        <div className="columns-2 md:columns-4 space-y-4 space-x-4">
+        <div className="px-1 md:px-0 columns-2 md:columns-4 space-y-4 space-x-0 md:space-x-4">
           {images.map((image) => {
             return (
               <img

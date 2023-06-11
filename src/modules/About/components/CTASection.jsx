@@ -48,30 +48,24 @@ const CTASection = () => {
               </li>
             </ul>
           </div>
-          <div class="h-full mt-12 lg:mt-0 border-mercury-400 lg:pl-24 md:border-l md:pl-12">
+          <div class="h-full mt-2 md:mt-12 lg:mt-0 border-mercury-400 lg:pl-24 md:border-l md:pl-12">
             <video
-              class=" w-[966px] h-[488px] aspect-square"
+              class="w-full md:w-[966px] h-auto md:h-[488px] aspect-square"
               src={
                 tourImage
-                  ? `https://player.vimeo.com/external/533862130.sd.mp4?s=8d8ce3fc8894448744813c0e48cb5df6e0c03e92&profile_id=164&oauth2_token_id=57447761`
-                  : `https://player.vimeo.com/external/484389490.sd.mp4?s=9ce6b6cc60bcd96fc49c871503418003d60da4aa&profile_id=164&oauth2_token_id=57447761`
+                  ? "https://player.vimeo.com/external/347821613.sd.mp4?s=189f6b8dd4135dc937f8701ffd6e66b33c16657d&profile_id=164&oauth2_token_id=57447761"
+                  : "https://player.vimeo.com/external/347821613.sd.mp4?s=189f6b8dd4135dc937f8701ffd6e66b33c16657d&profile_id=164&oauth2_token_id=57447761"
               }
+              controls
+              muted
+              autoPlay
               poster={
                 tourImage
                   ? `https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg?auto=compress&cs=tinysrgb&w=1600`
                   : `https://images.pexels.com/photos/2734521/pexels-photo-2734521.jpeg?auto=compress&cs=tinysrgb&w=1600`
               }
-            >
-              {" "}
-              <source
-                src={
-                  tourImage
-                    ? `https://player.vimeo.com/external/533862130.sd.mp4?s=8d8ce3fc8894448744813c0e48cb5df6e0c03e92&profile_id=164&oauth2_token_id=57447761`
-                    : `https://player.vimeo.com/external/484389490.sd.mp4?s=9ce6b6cc60bcd96fc49c871503418003d60da4aa&profile_id=164&oauth2_token_id=57447761`
-                }
-                type="video/mp4"
-              />
-            </video>
+            />
+
             {/* <img
               alt="Lexingtøn thumbnail"
               class="object-cover bg-gray-300 w-[966px] h-[488px]"

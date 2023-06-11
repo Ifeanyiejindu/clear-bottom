@@ -73,7 +73,7 @@ export default function ContactFormSection() {
 
                   <label
                     for="option1"
-                    class="block w-full rounded bg-highlightGreen border border-gray-700 p-3 hover:border-black peer-checked:border-black peer-checked:bg-mustard peer-checked:text-black"
+                    class="block w-full rounded bg-highlightGreen border border-gray-700 p-3 hover:border-black peer-checked:border-black peer-checked:bg-mustard text-goldenBrown  peer-checked:text-black"
                     tabindex="0"
                   >
                     <span class="text-sm font-medium"> General Enquiry </span>
@@ -91,7 +91,7 @@ export default function ContactFormSection() {
 
                   <label
                     for="option2"
-                    class="block w-full rounded bg-highlightGreen border border-gray-700 p-3 hover:border-black peer-checked:border-black peer-checked:bg-mustard peer-checked:text-black"
+                    class="block w-full rounded bg-highlightGreen border border-gray-700 p-3 hover:border-black peer-checked:border-black peer-checked:bg-mustard text-goldenBrown peer-checked:text-black"
                     tabindex="0"
                   >
                     <span class="text-sm font-medium"> Tour Enquiry </span>
@@ -109,7 +109,7 @@ export default function ContactFormSection() {
 
                   <label
                     for="option3"
-                    class="block w-full rounded bg-highlightGreen border border-gray-700 p-3 hover:border-gray-700 peer-checked:border-black peer-checked:bg-mustard peer-checked:text-black"
+                    class="block w-full rounded bg-highlightGreen border border-gray-700 p-3 hover:border-gray-700 peer-checked:border-black text-goldenBrown peer-checked:bg-mustard peer-checked:text-black"
                     tabindex="0"
                   >
                     <span class="text-sm font-medium">

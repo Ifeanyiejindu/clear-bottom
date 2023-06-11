@@ -3,7 +3,7 @@ import React from "react";
 const PhotographyCTA = () => {
   return (
     <section>
-      <div class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8 bg-black mb-40">
+      <div class="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8 bg-black mb-10 md:mb-40">
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div class="bg-blue-600 p-8 md:p-12 lg:px-16 lg:py-24">
             <div class="mx-auto max-w-xl text-center">
@@ -30,7 +30,7 @@ const PhotographyCTA = () => {
             </div>
           </div>
 
-          <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2">
             <img
               alt="Student"
               src="https://images.pexels.com/photos/1122408/pexels-photo-1122408.jpeg?auto=compress&cs=tinysrgb&w=1600"

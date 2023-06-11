@@ -53,7 +53,7 @@ const AboutInfo = () => {
             <h2 className="text-lg font-semibold text-darkbrown text-center">
               About Us
             </h2>
-            <h3 className="mt-2 text-[40px] font-bold leading-8 md:leading-[60px] tracking-tight text-gray-900 sm:text-[50px] w-[95%] md:w-[600px] mx-auto  text-center">
+            <h3 className="mt-2 text-[40px] font-bold leading-10 md:leading-[60px] tracking-tight text-gray-900 sm:text-[50px] w-[95%] md:w-[600px] mx-auto  text-center">
               Embark on Unforgettable Aquatic Explorations
             </h3>
           </div>
