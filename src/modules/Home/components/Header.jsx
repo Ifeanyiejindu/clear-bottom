@@ -60,7 +60,10 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div onClick={isMobile} className="fixed md:hidden right-0 top-5 mr-8">
+      <div
+        onClick={isMobile}
+        className="fixed md:hidden right-0 top-5 mr-8 z-50"
+      >
         {mobile ? (
           <AiOutlineClose size={20} color="white" />
         ) : (
