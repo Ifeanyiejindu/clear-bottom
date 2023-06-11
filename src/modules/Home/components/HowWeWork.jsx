@@ -4,10 +4,10 @@ const HowWeWork = () => {
   const Cards = ({ number, title, description, className, padding }) => {
     return (
       <div
-        className={` h-[393px] w-[95%] md:w-[454px] mx-auto rounded-[20px] text-left p-8 md:p-14 ${className} flex flex-col justify-center items-start`}
+        className={` h-[393px] w-[95%] md:w-[454px] text-white mx-auto rounded text-left p-8 md:p-14 ${className} flex flex-col justify-center items-start`}
       >
         <h1
-          className="text-[50px] font-semibold mb-[10px]"
+          className="text-[50px] font-semibold text-goldenBrown mb-[10px]"
           style={{ lineHeight: 1 }}
         >
           {number}
@@ -24,7 +24,7 @@ const HowWeWork = () => {
   };
   return (
     <div className=" w-full flex flex-col justify-center items-center py-32">
-      <h2 className="text-50px font-semibold mb-12">How We Work</h2>
+      <h2 className="text-50px font-semibold mb-12 text-white">How We Work</h2>
       <div className="flex flex-col md:flex-row w-full md:w-[1240px]">
         <Cards
           number={"01"}
@@ -33,7 +33,9 @@ const HowWeWork = () => {
         />
         <Cards
           number={"02"}
-          className={"bg-black text-white"}
+          className={
+            "bg-[#191C19] border shadow-lg shadow-gray-700 border-mustard text-white"
+          }
           title={"Booking and Reservation"}
           description="Make a booking by providing 
           your preferred date, time, and any 

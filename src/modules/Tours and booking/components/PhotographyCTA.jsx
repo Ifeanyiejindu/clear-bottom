@@ -22,7 +22,7 @@ const PhotographyCTA = () => {
               <div class="mt-4 md:mt-8">
                 <a
                   href="/"
-                  class="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-black transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-yellow-400"
+                  class="items-center justify-center  px-10 py-2.5 mt-8 text-center text-black duration-200 bg-gradient-to-b from-brightMustard to-mustard rounded inline-flex hover:bg-transparent hover:border-black hover:text-black/80 focus:outline-none focus-visible:outline-black text-sm focus-visible:ring-black"
                 >
                   Book Your Session Now
                 </a>

@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <header className="mb-[-100px] ">
+    <header className="mb-[-100px] z-50">
       <div className="flex h-24 px-5 max-w-[1240px] justify-between items-center mx-auto text-white">
         <img className="object-contain w-[5rem]" src={logo} alt="avowal logo" />
 
@@ -45,30 +45,31 @@ const Header = () => {
         )}
       </div>
       <ul
-        className={`fixed md:hidden ${
+        onClick={isMobile}
+        className={`fixed md:hidden z-50 text-white  ${
           mobile ? "left-0" : "left-[-100%]"
-        } top-0 w-[60%] h-full bg-white text-whiteColor ease-in-out duration-500`}
+        } top-0 w-[60%] h-full bg-cardBackground text-whiteColor ease-in-out duration-500`}
       >
-        <div className=" bg-black">
+        <div className="">
           <img
             className="object-contain w-[8rem] mt-16 ml-8"
             src={logo}
             alt="avowal logo"
           />
         </div>
-        <li className="p-4 mt-8 ml-5">
+        <li className="p-4 mt-8 ml-5 hover:text-mustard">
           <Link to={"/"}>Home Page</Link>
         </li>
-        <li className="p-4 ml-5">
+        <li className="p-4 ml-5 hover:text-mustard">
           <Link to={"/about"}>About Us</Link>
         </li>
-        <li className="p-4 ml-5">
+        <li className="p-4 ml-5 hover:text-mustard">
           <Link to={"/tours"}>Book Tours</Link>
         </li>
-        <li className="p-4 ml-5">
+        <li className="p-4 ml-5 hover:text-mustard">
           <Link to={"/photography"}>Book Ariel Photography</Link>
         </li>
-        <li className="p-4 ml-5">
+        <li className="p-4 ml-5 hover:text-mustard">
           <Link to={"/contact"}>Contact Us</Link>
         </li>
       </ul>

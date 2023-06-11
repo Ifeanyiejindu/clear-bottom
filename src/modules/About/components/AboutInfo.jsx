@@ -9,7 +9,7 @@ const AboutInfo = () => {
         <div class="container px-5 py-10 mx-auto">
           <div class="flex flex-wrap -m-4 text-center">
             <div class="p-4 sm:w-1/3 w-1/2">
-              <h2 class="title-font font-medium sm:text-5xl text-3xl text-black">
+              <h2 class="title-font font-medium sm:text-5xl text-3xl text-goldenBrown">
                 <CountUp end={800} suffix="+" redraw={true}>
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>
@@ -18,10 +18,10 @@ const AboutInfo = () => {
                   )}
                 </CountUp>
               </h2>
-              <p class="leading-relaxed">Visitors</p>
+              <p class="leading-relaxed text-white">Visitors</p>
             </div>
             <div class="p-4 sm:w-1/3 w-1/2">
-              <h2 class="title-font font-medium sm:text-5xl text-3xl text-black">
+              <h2 class="title-font font-medium sm:text-5xl text-3xl text-goldenBrown">
                 <CountUp end={3} redraw={true}>
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>
@@ -30,10 +30,10 @@ const AboutInfo = () => {
                   )}
                 </CountUp>
               </h2>
-              <p class="leading-relaxed">Superb Locations</p>
+              <p class="leading-relaxed text-white">Superb Locations</p>
             </div>
             <div class="p-4 sm:w-1/3 w-1/2">
-              <h2 class="title-font font-medium sm:text-4xl text-3xl text-black">
+              <h2 class="title-font font-medium sm:text-4xl text-3xl text-goldenBrown">
                 <CountUp end={100} suffix="%" redraw={true}>
                   {({ countUpRef, start }) => (
                     <VisibilitySensor onChange={start} delayedCall>
@@ -42,7 +42,7 @@ const AboutInfo = () => {
                   )}
                 </CountUp>
               </h2>
-              <p class="leading-relaxed">Awesome Experience</p>
+              <p class="leading-relaxed text-white">Awesome Experience</p>
             </div>
           </div>
         </div>

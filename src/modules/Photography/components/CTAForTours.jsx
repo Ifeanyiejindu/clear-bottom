@@ -2,14 +2,14 @@ import React from "react";
 
 const CTAForTours = () => {
   return (
-    <section class="overflow-hidden bg-gray-50 sm:grid sm:grid-cols-2">
+    <section class="overflow-hidden bg-mustard sm:grid sm:grid-cols-2">
       <div class="p-8 md:p-12 lg:px-16 lg:py-24">
         <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
           <h2 class="text-2xl font-bold text-gray-900 md:text-3xl">
             Discover the Wonders of Turks and Caicos
           </h2>
 
-          <p class="hidden text-gray-500 md:mt-4 md:block">
+          <p class="hidden text-gray-800 md:mt-4 md:block">
             Experience the beauty of Turks and Caicos like never before. Join
             our guided tours and explore the mesmerizing landscapes,
             crystal-clear waters, and diverse marine life. Whether you're a

@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactHeader = () => {
   return (
-    <div class="py-4 bg-black text-white">
+    <div class="py-4 bg-highlightGreen text-white">
       <div class="container mx-auto flex flex-col md:flex-row my-12 md:my-36">
         <div class="flex flex-col w-full lg:w-2/5 p-8">
           <p class="text-3xl md:text-5xl text-yellow-500 my-4 leading-relaxed md:leading-snug">
@@ -43,7 +43,7 @@ const ContactHeader = () => {
               <path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z" />
             </svg>
             +91745435433
-          </p>{" "}
+          </p>
           <br /> <br />
           <p class="font-sans text-sm md:text-lg my-2 md:my-4">
             Press the chat icon at the right bottom corner to have a live chat

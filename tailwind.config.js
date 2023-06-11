@@ -3,12 +3,18 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     fontFamily: {
-      sans: ["Work Sans", "sans-serif"],
+      // sans: ["Work Sans", "sans-serif"],
+      "cormorant-infant": ["Cormorant Infant", "serif"],
+      manrope: ["Manrope", "sans-serif"],
     },
     extend: {
       colors: {
-        red: "#B20C06",
-        mustard: "#E5B04F",
+        backgroundGreen: "#191B19",
+        highlightGreen: "#2D3638",
+        goldenBrown: "#FFC697",
+        mustard: "#FFCA54",
+        brightMustard: "#FFDD7D",
+        cardBackground: "#191C19",
         black: "#101010",
         blue: "#314A91",
         lightBlue: "#9ABCCA",

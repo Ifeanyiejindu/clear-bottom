@@ -8,14 +8,14 @@ const CTASection = () => {
   };
 
   return (
-    <section class="overflow-hidden">
+    <section class="overflow-hidden gradientbackground">
       <div class="items-center w-full px-5 py-24 mx-auto md:px-12 lg:px-16 max-w-7xl">
         <div class="grid items-start grid-cols-1 md:grid-cols-2">
           <div class="lg:pr-24 md:pr-12">
-            <h2 class="mt-6 text-3xl font-medium text-black">
+            <h2 class="mt-6 text-3xl font-medium text-mustard">
               Dive into Adventure and Capture Unforgettable Moments
             </h2>
-            <p class="mt-5 text-base text-gray-500">
+            <p class="mt-5 text-base text-white">
               Don't miss out on these extraordinary experiences. Dive into
               adventure with our tours and let our aerial photography services
               immortalize your memories. Book your Clear Bottom Adventure today
@@ -27,11 +27,11 @@ const CTASection = () => {
                   <div class="flex items-center justify-center w-12 h-12 text-black bg-gray-100 rounded-xl">
                     ❖
                   </div>
-                  <p class="mt-5 text-lg font-medium leading-6 text-black">
+                  <p class="mt-5 text-lg font-medium leading-6 text-goldenBrown">
                     Join Our Tours
                   </p>
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   Embark on Thrilling Explorations of the Turks and Caicos
                   Islands
                 </div>
@@ -41,11 +41,11 @@ const CTASection = () => {
                   <div class="flex items-center justify-center w-12 h-12 text-black bg-gray-100 rounded-xl">
                     ❖
                   </div>
-                  <p class="mt-5 text-lg font-medium leading-6 text-black">
+                  <p class="mt-5 text-lg font-medium leading-6 text-goldenBrown">
                     Book Photography
                   </p>
                 </div>
-                <div class="mt-2 text-base text-gray-500">
+                <div class="mt-2 text-base text-white">
                   Elevate Your Memories with Professional Aerial Photography
                   Services
                 </div>
