@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper";
+import { photo26 } from "../../../assets/images";
 
 const Testimonials = () => {
   const Cards = () => {
@@ -39,8 +40,7 @@ const Testimonials = () => {
         backgroundPositionY: "top",
         backgroundPositionX: "left",
         backgroundSize: "cover",
-        backgroundImage:
-          'url("https://images.unsplash.com/photo-1516409134144-dd775651d24d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1333&q=80")',
+        backgroundImage: `url(${photo26})`,
       }}
     >
       <div className="text-center py-28 flex flex-col justify-center bg-blend-overlay bg-gradient-to-b from-backgroundGreen/50 to-highlightGreen w-full h-full">

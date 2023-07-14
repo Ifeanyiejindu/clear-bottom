@@ -1,16 +1,27 @@
 import React from "react";
+import {
+  photo,
+  photo11,
+  photo12,
+  photo15,
+  photo17,
+  photo24,
+  photo4,
+  photo6,
+  photo7,
+} from "../../../assets/images";
 
 const Gallery = () => {
   const images = [
-    "https://images.pexels.com/photos/7568925/pexels-photo-7568925.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/8711864/pexels-photo-8711864.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/13348895/pexels-photo-13348895.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/7426142/pexels-photo-7426142.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/14021728/pexels-photo-14021728.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/8456250/pexels-photo-8456250.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/1430672/pexels-photo-1430672.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/3925081/pexels-photo-3925081.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    photo,
+    photo4,
+    photo6,
+    photo7,
+    photo11,
+    photo12,
+    photo15,
+    photo24,
+    photo17,
   ];
   return (
     <section className="w-full gradientbackground items-center flex flex-col justify-center">

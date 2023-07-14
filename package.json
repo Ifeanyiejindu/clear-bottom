@@ -15,6 +15,7 @@
     "react-router-dom": "^6.12.1",
     "react-scripts": "^5.0.1",
     "react-visibility-sensor": "^5.1.1",
+    "react-whatsapp": "^0.3.0",
     "swiper": "^9.3.2",
     "typeface-cormorant-infant": "^1.1.13",
     "typeface-manrope": "^1.0.0",

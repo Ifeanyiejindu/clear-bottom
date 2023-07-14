@@ -7,6 +7,7 @@ import About from "./modules/About/view/About";
 import Tours from "./modules/Tours and booking/view/Tours";
 import Photography from "./modules/Photography/view/Photography";
 import Contact from "./modules/Contact/view/Contact";
+import FloatingWhatsAppLiveChat from "./constants/generalComponents/FloatingWhatsAppLiveChat";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <FloatingWhatsAppLiveChat />
     </Router>
   );
 }
