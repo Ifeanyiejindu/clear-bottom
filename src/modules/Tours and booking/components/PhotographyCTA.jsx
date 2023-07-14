@@ -1,4 +1,5 @@
 import React from "react";
+import { photo28, photo30 } from "../../../assets/images";
 
 const PhotographyCTA = () => {
   return (
@@ -30,16 +31,16 @@ const PhotographyCTA = () => {
             </div>
           </div>
 
-          <div class="grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2">
+          <div class="  grid grid-cols-1 gap-4 md:grid-cols-1 lg:grid-cols-2">
             <img
-              alt="Student"
-              src="https://images.pexels.com/photos/1122408/pexels-photo-1122408.jpeg?auto=compress&cs=tinysrgb&w=1600"
-              class="h-40 w-full object-cover sm:h-56 md:h-full"
+              alt=""
+              src={photo28}
+              class="h-40 w-full object-cover sm:h-56 md:h-full "
             />
 
             <img
-              alt="Student"
-              src="https://images.pexels.com/photos/10549599/pexels-photo-10549599.jpeg?auto=compress&cs=tinysrgb&w=1600"
+              alt=""
+              src={photo30}
               class="h-40 w-full object-cover sm:h-56 md:h-full"
             />
           </div>

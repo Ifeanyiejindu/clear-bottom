@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { photo4 } from "../../../assets/images";
 
 const PhotoHeroSection = () => {
   return (
@@ -43,7 +44,7 @@ const PhotoHeroSection = () => {
               <img
                 class="object-cover object-center w-full h-[530px] aspect-square mx-auto bg-gray-300 border lg:ml-auto"
                 alt="hero"
-                src="https://images.pexels.com/photos/8908121/pexels-photo-8908121.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                src={photo4}
               />
             </div>
           </div>

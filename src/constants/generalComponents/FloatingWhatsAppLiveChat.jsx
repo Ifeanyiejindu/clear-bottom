@@ -10,28 +10,24 @@ const FloatingWhatsAppLiveChat = () => {
   const [show, setShow] = useState(false);
   let url = `${URL}/${number}`;
   return (
-    <div>
+    <div className="flex flex-col items-end">
       {/* appearing and disappearing input field */}
       {show && (
-        <div className="relative bg-cardBackground w-[300px] rounded h-[200px]">
-          <div className="w-full flex justify-start">
-            <img src={logo} alt="logo" className="object-contain" />
+        <div className="relative bg-cardBackground w-[250px] right-5 rounded h-[200px] duration-300">
+          <div className="w-full flex justify-end">
+            <img src={logo} alt="logo" className="h-10 w-10 object-contain" />
           </div>
-          <div>
-            <label class="sr-only w-full relative" for="message">
-              Message
-            </label>
 
-            <textarea
-              class="w-full rounded border-gray-700 text-white bg-highlightGreen p-3 text-sm"
-              placeholder="Message"
-              rows="3"
-              id="message"
-              name="message"
-              value={message}
-              onChange={(event) => setMessage(event.target.value)}
-            ></textarea>
-          </div>
+          <textarea
+            class="w-full rounded border-gray-700 text-white bg-highlightGreen p-3 text-sm"
+            placeholder="Message"
+            rows="3"
+            id="message"
+            name="message"
+            value={message}
+            onChange={(event) => setMessage(event.target.value)}
+          ></textarea>
+
           <button
             onClick={(event) => {
               event.preventDefault();
@@ -46,17 +42,17 @@ const FloatingWhatsAppLiveChat = () => {
               }, 4000);
             }}
             disabled={loading}
-            type="submit"
             class="inline-block w-full rounded bg-gradient-to-b from-mustard to-brightMustard px-5 py-3 font-medium text-black sm:w-auto"
           >
-            {loading ? "Loading..." : "Send Enquiry on WhatsApp"}
+            {loading ? "Loading..." : "Send"}
           </button>
         </div>
       )}
       {/* button for opening and closing input field */}
-      <div className="w-full flex ">
-        <AiOutlineWhatsApp />
-        <div class="mt-4">
+      <div className="relative">
+        <div className="w-full flex items-center space-x-3">
+          <AiOutlineWhatsApp size={35} color="#25D366" />
+
           <button
             onClick={() => {
               setShow(!show);

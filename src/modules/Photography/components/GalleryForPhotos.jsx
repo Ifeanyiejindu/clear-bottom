@@ -1,15 +1,25 @@
 import React from "react";
+import {
+  photo,
+  photo11,
+  photo12,
+  photo14,
+  photo16,
+  photo2,
+  photo3,
+  photo31,
+} from "../../../assets/images";
 
 const GalleryForPhotos = () => {
   const images = [
-    "https://images.pexels.com/photos/5006976/pexels-photo-5006976.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/4652070/pexels-photo-4652070.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/4601397/pexels-photo-4601397.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/4368426/pexels-photo-4368426.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/4601716/pexels-photo-4601716.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/3278939/pexels-photo-3278939.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/8874851/pexels-photo-8874851.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/14930522/pexels-photo-14930522.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    photo3,
+    photo2,
+    photo,
+    photo11,
+    photo12,
+    photo14,
+    photo16,
+    photo31,
   ];
   return (
     <section>
@@ -19,7 +29,7 @@ const GalleryForPhotos = () => {
             return (
               <figure key={image.key} class="">
                 <img
-                  class="w-full bg-gray-200"
+                  class="w-full bg-gray-200 aspect-square object-cover"
                   src={image}
                   alt=""
                   width="1310"

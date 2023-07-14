@@ -32,6 +32,10 @@ import photo24 from "./photo24.jpeg";
 import photo25 from "./photo25.jpeg";
 import photo26 from "./photo26.jpeg";
 import photo27 from "./photo27.jpeg";
+import photo28 from "./photo28.png";
+import photo29 from "./photo29.png";
+import photo30 from "./photo30.png";
+import photo31 from "./photo31.png";
 import video from "./video.mp4";
 import video1 from "./video1.mp4";
 import video2 from "./video2.mp4";
@@ -47,6 +51,10 @@ export {
   banner,
   video,
   video1,
+  photo28,
+  photo29,
+  photo30,
+  photo31,
   video2,
   video3,
   video4,
