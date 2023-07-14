@@ -10,10 +10,14 @@ const FloatingWhatsAppLiveChat = () => {
   const [show, setShow] = useState(false);
   let url = `${URL}/${number}`;
   return (
-    <div className="flex flex-col items-end">
+    <div
+      className={`flex flex-col items-end fixed bottom-10 right-5 z-90 ${
+        show ? "md:hover:animate-none " : "md:hover:animate-bounce "
+      } duration-300`}
+    >
       {/* appearing and disappearing input field */}
       {show && (
-        <div className="relative bg-cardBackground w-[250px] right-5 rounded h-[200px] duration-300">
+        <div className="relative bg-transparent w-[250px] rounded h-[230px] duration-500  transition-all">
           <div className="w-full flex justify-end">
             <img src={logo} alt="logo" className="h-10 w-10 object-contain" />
           </div>
@@ -21,7 +25,7 @@ const FloatingWhatsAppLiveChat = () => {
           <textarea
             class="w-full rounded border-gray-700 text-white bg-highlightGreen p-3 text-sm"
             placeholder="Message"
-            rows="3"
+            rows="4"
             id="message"
             name="message"
             value={message}
@@ -57,10 +61,11 @@ const FloatingWhatsAppLiveChat = () => {
             onClick={() => {
               setShow(!show);
             }}
-            disabled={loading}
-            class="inline-block w-full rounded bg-gradient-to-b from-mustard to-brightMustard px-5 py-3 font-medium text-black sm:w-auto"
+            class={`inline-block ${
+              show ? "w-[176px]" : "w-full"
+            } rounded bg-gradient-to-b from-mustard  to-brightMustard px-5 py-3 font-medium text-black`}
           >
-            {loading ? "Loading..." : "Hi, How can I help"}
+            {show ? "Close" : "Hi, How can I help"}
           </button>
         </div>
       </div>
