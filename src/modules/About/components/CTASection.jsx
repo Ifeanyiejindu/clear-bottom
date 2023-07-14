@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { photo25, video } from "../../../assets/images";
 
 const CTASection = () => {
   const [tourImage, setTourImage] = useState(true);
@@ -51,19 +52,11 @@ const CTASection = () => {
           <div class="h-full mt-2 md:mt-12 lg:mt-0 border-mercury-400 lg:pl-24 md:border-l md:pl-12">
             <video
               class="w-full md:w-[966px] h-auto md:h-[488px] aspect-square"
-              src={
-                tourImage
-                  ? "https://player.vimeo.com/external/347821613.sd.mp4?s=189f6b8dd4135dc937f8701ffd6e66b33c16657d&profile_id=164&oauth2_token_id=57447761"
-                  : "https://player.vimeo.com/external/347821613.sd.mp4?s=189f6b8dd4135dc937f8701ffd6e66b33c16657d&profile_id=164&oauth2_token_id=57447761"
-              }
+              src={video}
               controls
               muted
               autoPlay
-              poster={
-                tourImage
-                  ? `https://images.pexels.com/photos/2404667/pexels-photo-2404667.jpeg?auto=compress&cs=tinysrgb&w=1600`
-                  : `https://images.pexels.com/photos/2734521/pexels-photo-2734521.jpeg?auto=compress&cs=tinysrgb&w=1600`
-              }
+              poster={photo25}
             />
 
             {/* <img

@@ -1,38 +1,14 @@
+import { photo21 } from "../../../assets/images";
+
 export default function AboutHero() {
   return (
-    // <div className="lg:pt-20">
-    //   <div class="container px-5 pt-32 mx-auto lg:px-4 lg:py-4">
-    //     <div class="flex flex-col w-full mb-2 text-left md:text-center ">
-    //       <h1 class="mb-2 text-4xl font-bold tracking-tighter text-black lg:text-6xl md:text-5xl">
-    //         <span>Discover Who</span>
-    //         <br class="hidden lg:block"></br>
-    //         We are
-    //       </h1>
-    //       <br></br>
-    //       <p class="mx-auto  text-xl font-normal leading-relaxed text-gray-900 dark:text-gray-900 lg:w-2/3">
-    //         At Clear Bottom Adventures, we believe in unlocking the hidden
-    //         treasures that lie beneath the crystal-clear waters of the Turks and
-    //         Caicos Islands. Immerse yourself in a world of wonder as you embark
-    //         on extraordinary aquatic explorations like never before.
-    //       </p>
-    //     </div>
-    //   </div>
-    //   <div class="container flex flex-col items-center justify-center py-8 mx-auto rounded-lg md:p-1 p-3">
-    //     <img
-    //       class="object-cover object-center w-full mb-10 border-gray-200 dark:border-gray-900 g327 border rounded-lg shadow-md"
-    //       alt="hero"
-    //       src="https://images.unsplash.com/photo-1654157925394-4b7809721149?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1760&q=80"
-    //     ></img>
-    //   </div>
-    // </div>
-
     <header class=" mt-32 ">
       <div class="mx-auto grid max-w-6xl grid-cols-1  grid-rows-[auto_1fr] gap-y-16 py-16 md:py-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pb-36 lg:py-20 xl:py-32 items-start">
         <div class="relative flex items-end lg:col-span-5 lg:row-span-2">
           <div class="relative z-10 flex w-64 mx-auto overflow-hidden md:w-80 lg:w-auto">
             <img
               alt=""
-              src="https://ik.imagekit.io/gondolatravel/uploads/IMG_3507_1_scaled_e8972b7dcc.jpg?tr=w-766,h-600,c-maintain_ratio,f-auto"
+              src={photo21}
               decoding="async"
               data-nimg="future"
               class="object-cover w-full h-[430px] md:h-[600px] lg:h-[750px]"

@@ -1,4 +1,5 @@
 import React from "react";
+import { photo10, photo5 } from "../../../assets/images";
 
 const About1 = () => {
   return (
@@ -30,13 +31,13 @@ const About1 = () => {
         </div>
         <div className="flex gap-3 items-end mx-auto w-[95%] sm:max-w-[40%]">
           <img
-            className="h-[403px] max-w-[50%]  rounded object-cover"
-            src="https://images.unsplash.com/photo-1496693623174-5f1de03f1b91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1480&q=80"
+            className="h-[403px] max-w-[50%]  rounded object-cover align-bottom"
+            src={photo5}
             alt="/"
           />
           <img
             className="h-[487px] max-w-[48%] rounded object-cover"
-            src="https://images.unsplash.com/photo-1657057791120-c96b35ecdaf6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1364&q=80"
+            src={photo10}
             alt="/"
           />
         </div>

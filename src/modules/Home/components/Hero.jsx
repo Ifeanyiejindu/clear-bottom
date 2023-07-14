@@ -1,5 +1,5 @@
 import React from "react";
-import { banner } from "../../../assets/images";
+import { banner, photo17, photo25, video1 } from "../../../assets/images";
 
 const Hero = () => {
   // const bannerStyle = {
@@ -79,11 +79,8 @@ const Hero = () => {
         class="bg-cover bg-neutral-300 bg-top h-[75vh]"
         style={bannerVideoStyle}
       >
-        <video autoPlay loop muted poster={banner} style={videoStyle}>
-          <source
-            src="https://player.vimeo.com/progressive_redirect/playback/820590028/rendition/360p/file.mp4?loc=external&oauth2_token_id=57447761&signature=76dd6a170f764fb6cefa6016f10b06260eb321eb88ca33947f5450b280d89c31"
-            type="video/mp4"
-          />
+        <video autoPlay loop muted poster={photo25} style={videoStyle}>
+          <source src={video1} type="video/mp4" />
         </video>
         <div class="relative px-5 mx-auto overflow-hidden lg:px-32 bg-opacity-90">
           <div class="py-32">
