@@ -48,7 +48,7 @@ const FloatingWhatsAppLiveChat = () => {
             disabled={loading}
             class="inline-block w-full rounded bg-gradient-to-b from-mustard to-brightMustard px-5 py-3 font-medium text-black sm:w-auto"
           >
-            {loading ? "Loading..." : "Send"}
+            {loading ? "Loading..." : "Chat"}
           </button>
         </div>
       )}
