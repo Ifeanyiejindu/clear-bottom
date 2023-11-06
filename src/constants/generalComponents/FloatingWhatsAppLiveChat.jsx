@@ -65,7 +65,7 @@ const FloatingWhatsAppLiveChat = () => {
               show ? "w-[176px]" : "w-full"
             } rounded bg-gradient-to-b from-mustard  to-brightMustard px-5 py-3 font-medium text-black`}
           >
-            {show ? "Close" : "Hi, How can I help"}
+            {show ? "Close" : "How can I help"}
           </button>
         </div>
       </div>
